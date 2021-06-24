@@ -1,0 +1,17 @@
+{
+  "name": "ws-echo-room",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind build src/style.css -o public/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "tailwindcss": "^2.2.4",
+    "ws": "^7.5.0"
+  }
+}
